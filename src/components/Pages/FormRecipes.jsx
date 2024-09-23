@@ -47,7 +47,7 @@ const FormRecipes = () => {
 
        
         toast.success('Recipe added successfully!', { autoClose: 1000 });
-        navigate('/view-recipes');
+        navigate('/view-recipe');
     
         setTitle('');
         setIngredients('');
